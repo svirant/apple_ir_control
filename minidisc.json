@@ -1,0 +1,52 @@
+{
+  "formats": [
+    {
+      "preamble": [
+        4
+      ],
+      "coding": "ppm",
+      "zero": [
+        1,
+        1
+      ],
+      "one": [
+        1,
+        2
+      ],
+      "bits": 4,
+      "carrier": 38000,
+      "post_data_bits": 8,
+      "post_data": "7A",
+      "timebase": 600,
+      "gap": 25000
+    },
+    {
+      "preamble": [
+        4
+      ],
+      "coding": "ppm",
+      "zero": [
+        1,
+        1
+      ],
+      "one": [
+        1,
+        2
+      ],
+      "bits": 12,
+      "timebase": 600,
+      "gap": 24000,
+      "carrier": 38000
+    }
+  ],
+  "keys": {
+    "PLAY": "0A",
+    "STOP": "08",
+    "NEXT": "01",
+    "PREV": "00",
+    "PAUSE": {
+      "format": 1,
+      "data": "A9 07"
+    }
+  }
+}
